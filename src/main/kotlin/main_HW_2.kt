@@ -8,8 +8,8 @@ fun main() {
     println("Комиссия составляет $finalFee руб.")
 
     //Задача 2
-    val likes = 165
-    if (likes % 10 === 1) {
+    val likes = 111
+    if (likes % 10 === 1 && likes % 100 != 11) {
         println("Понравилось $likes человеку")
     } else println("Понравилось $likes людям")
 
